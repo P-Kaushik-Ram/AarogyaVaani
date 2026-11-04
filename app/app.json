@@ -1,0 +1,118 @@
+{
+  "expo": {
+    "name": "AarogyaVaani",
+    "slug": "aarogyavaani",
+    "version": "1.0.0",
+    "scheme": "aarogyavaani",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "platforms": [
+      "android"
+    ],
+    "icon": "./assets/branding/aarogyavaani_app_icon.png",
+    "android": {
+      "package": "com.kaushikram.aarogyavaani",
+      "versionCode": 5,
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.VIBRATE"
+      ],
+      "blockedPermissions": [
+        "android.permission.USE_EXACT_ALARM",
+        "android.permission.USE_FULL_SCREEN_INTENT",
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/branding/aarogyavaani_adaptive_foreground.png",
+        "backgroundColor": "#071A2B"
+      }
+    },
+    "plugins": [
+      "./plugins/withNoDebugOverlay",
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/notification-icon.png",
+          "color": "#F2B632",
+          "defaultChannel": "dose-v1"
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Allow AarogyaVaani to hear a reminder when you tap Speak.",
+          "speechRecognitionPermission": "Allow AarogyaVaani to turn your spoken reminder into text."
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/NotoSans_400Regular.ttf",
+            "./assets/fonts/NotoSans_600SemiBold.ttf",
+            "./assets/fonts/NotoSans_700Bold.ttf",
+            "./assets/fonts/NotoSansDevanagari_400Regular.ttf",
+            "./assets/fonts/NotoSansDevanagari_600SemiBold.ttf",
+            "./assets/fonts/NotoSansDevanagari_700Bold.ttf",
+            "./assets/fonts/NotoSansTamil_400Regular.ttf",
+            "./assets/fonts/NotoSansTamil_600SemiBold.ttf",
+            "./assets/fonts/NotoSansTamil_700Bold.ttf",
+            "./assets/fonts/NotoSansMalayalam_400Regular.ttf",
+            "./assets/fonts/NotoSansMalayalam_600SemiBold.ttf",
+            "./assets/fonts/NotoSansMalayalam_700Bold.ttf",
+            "./assets/fonts/NotoSansKannada_400Regular.ttf",
+            "./assets/fonts/NotoSansKannada_600SemiBold.ttf",
+            "./assets/fonts/NotoSansKannada_700Bold.ttf",
+            "./assets/fonts/NotoSansTelugu_400Regular.ttf",
+            "./assets/fonts/NotoSansTelugu_600SemiBold.ttf",
+            "./assets/fonts/NotoSansTelugu_700Bold.ttf"
+          ]
+        }
+      ],
+      "expo-sqlite",
+      "expo-secure-store",
+      "expo-localization",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Choose a medicine photo. Photos stay on your phone.",
+          "cameraPermission": "Take a medicine photo. Photos stay on your phone."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#071A2B",
+          "image": "./assets/branding/aarogyavaani_app_icon.png",
+          "imageWidth": 136,
+          "resizeMode": "contain",
+          "dark": {
+            "backgroundColor": "#071A2B",
+            "image": "./assets/branding/aarogyavaani_app_icon.png"
+          }
+        }
+      ],
+      "expo-status-bar",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false,
+          "enableBackgroundRecording": false,
+          "enableBackgroundPlayback": false
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {}
+    }
+  }
+}

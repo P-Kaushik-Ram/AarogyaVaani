@@ -1,0 +1,147 @@
+"""Small DB-API adapter; PostgreSQL schema is initialized explicitly, never per request."""
+import os
+import ssl
+import struct
+from importlib.metadata import version
+from contextlib import contextmanager
+from urllib.parse import urlsplit, parse_qs, unquote
+import pg8000.dbapi
+
+
+def options():
+    try:
+        url = urlsplit(os.environ['DATABASE_URL'])
+        query = parse_qs(url.query, keep_blank_values=True)
+        if url.scheme not in ('postgres', 'postgresql') or not url.hostname or not url.username or not url.path.strip('/'):
+            raise ValueError()
+        if set(query) - {'sslmode', 'channel_binding'}:
+            raise ValueError()
+        if query.get('sslmode', ['verify-full']) != ['verify-full']:
+            raise ValueError()
+        if query.get('channel_binding', ['require']) != ['require']:
+            raise ValueError()
+        return dict(user=unquote(url.username), password=unquote(url.password or ''),
+                    host=url.hostname, port=url.port or 5432, database=unquote(url.path[1:]),
+                    ssl_context=ssl.create_default_context(), timeout=10,
+                    require_channel_binding=True,
+                    startup_params={'statement_timeout': '10000', 'lock_timeout': '5000'})
+    except (KeyError, ValueError):
+        raise RuntimeError('DATABASE_URL must be a PostgreSQL URL with sslmode=verify-full and no unsupported options') from None
+
+
+class BoundConnection(pg8000.dbapi.Connection):
+    """Require SCRAM-PLUS using the pinned driver's authentication dispatcher.
+
+    pg8000 already derives tls-server-end-point from the verified TLS socket and
+    scramp validates the server signature. This guard forbids all fallback auth
+    before sending a password/proof. Re-review this hook before upgrading pg8000.
+    """
+    def __init__(self, **kwargs):
+        if version('pg8000') != '1.31.5':
+            raise RuntimeError('Channel-binding adapter requires reviewed pg8000 1.31.5')
+        self._binding_started = False
+        self._binding_verified = False
+        try:
+            super().__init__(**kwargs)
+            if not self._binding_verified:
+                raise pg8000.dbapi.InterfaceError('Required channel binding was not completed')
+        except BaseException:
+            # Constructor failures must not leak an authenticated socket.
+            try:
+                self.close()
+            except Exception:
+                pass
+            raise
+
+    def handle_AUTHENTICATION_REQUEST(self, data, context):
+        code = struct.unpack_from('!I', data)[0]
+        if code == 10:
+            if self._binding_started or not self.channel_binding or b'SCRAM-SHA-256-PLUS' not in data[4:].split(b'\0'):
+                raise pg8000.dbapi.InterfaceError('Server does not support required channel binding')
+            # Offer only PLUS to scramp, regardless of other advertised methods.
+            data = data[:4] + b'SCRAM-SHA-256-PLUS\0\0'
+            self._binding_started = True
+        elif code in (11, 12):
+            if not self._binding_started or self._binding_verified:
+                raise pg8000.dbapi.InterfaceError('Invalid channel-binding authentication sequence')
+        elif code == 0:
+            if not self._binding_verified:
+                raise pg8000.dbapi.InterfaceError('Required channel binding was not completed')
+        else:
+            raise pg8000.dbapi.InterfaceError('Authentication without channel binding is forbidden')
+        super().handle_AUTHENTICATION_REQUEST(data, context)
+        if code == 12:
+            # Only mark complete after scramp accepts the server's signature.
+            self._binding_verified = True
+
+
+def connect(**kwargs):
+    kwargs.pop('require_channel_binding')
+    return BoundConnection(**kwargs)
+
+
+class Row(dict):
+    def __getitem__(self, key):
+        return tuple(self.values())[key] if isinstance(key, int) else super().__getitem__(key)
+
+
+class Result:
+    def __init__(self, cursor):
+        self.cursor = cursor
+
+    def fetchone(self):
+        row = self.cursor.fetchone()
+        return None if row is None else Row(zip((c[0] for c in self.cursor.description), row))
+
+    def __iter__(self):
+        while (row := self.fetchone()) is not None:
+            yield row
+
+
+class Connection:
+    def __init__(self, raw):
+        self.raw = raw
+
+    def execute(self, sql, params=()):
+        cursor = self.raw.cursor()
+        # Store queries use only fixed SQL and positional placeholders.
+        cursor.execute(sql.replace('?', '%s'), params)
+        return Result(cursor)
+
+
+@contextmanager
+def connection():
+    raw = connect(**options())
+    try:
+        yield Connection(raw)
+        raw.commit()
+    except BaseException:
+        raw.rollback()
+        raise
+    finally:
+        raw.close()
+
+
+def initialize():
+    from db.store import SCHEMA
+    schema = SCHEMA.replace('PRAGMA foreign_keys=ON;', '').replace(
+        'id INTEGER PRIMARY KEY', 'id BIGINT GENERATED BY DEFAULT AS IDENTITY PRIMARY KEY').replace(
+        'reminder_id INTEGER', 'reminder_id BIGINT')
+    with connection() as conn:
+        for statement in schema.split(';'):
+            if statement.strip():
+                conn.execute(statement)
+
+
+def check():
+    with connection() as conn:
+        conn.execute('SET TRANSACTION READ ONLY')
+        assert conn.execute('SELECT 1').fetchone()[0] == 1
+        for table, columns in {
+            'devices': 'user_id,token_hash,created_at,timezone',
+            'reminders': 'id,user_id,medicine,times,days_of_week,note,status,language,timezone,updated_at',
+            'dose_events': 'id,reminder_id,scheduled_for,type,recorded_at',
+            'reminder_log': 'id,reminder_id,scheduled_for',
+            'rate_limits': 'key,"window",count',
+        }.items():
+            conn.execute(f'SELECT {columns} FROM {table} LIMIT 0')

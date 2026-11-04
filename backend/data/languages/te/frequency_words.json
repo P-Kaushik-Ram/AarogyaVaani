@@ -1,0 +1,17 @@
+{
+  "words": {
+    "ప్రతిరోజూ": "once_daily",
+    "రోజూ": "once_daily",
+    "pratiroju": "once_daily",
+    "రోజుకు రెండుసార్లు": "twice_daily"
+  },
+  "twice_defaults": [
+    "08:00",
+    "21:00"
+  ],
+  "unsupported": [
+    "రోజు విడిచి",
+    "రేపు",
+    "వారానికి"
+  ]
+}

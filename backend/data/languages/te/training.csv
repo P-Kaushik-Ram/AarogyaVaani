@@ -1,0 +1,51 @@
+text,intent,category,review_status
+"గుర్తు చేయి ""Training Brand 1"" రాత్రి 1 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 1"" at 1 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 1""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Training Brand 2"" రాత్రి 2 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 2"" at 2 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 2""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Training Brand 3"" రాత్రి 3 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 3"" at 3 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 3""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Training Brand 4"" రాత్రి 4 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 4"" at 4 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 4""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Training Brand 5"" రాత్రి 5 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 5"" at 5 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 5""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Training Brand 6"" రాత్రి 6 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 6"" at 6 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 6""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Training Brand 7"" రాత్రి 7 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 7"" at 7 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 7""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Training Brand 8"" రాత్రి 8 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 8"" at 8 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 8""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Training Brand 9"" రాత్రి 9 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 9"" at 9 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 9""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Training Brand 10"" రాత్రి 10 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 10"" at 10 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 10""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Training Brand 11"" రాత్రి 11 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 11"" at 11 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 11""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Training Brand 12"" రాత్రి 12 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"gurtu cheyi ""Training Brand 12"" at 12 AM ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Training Brand 12""",cancel_reminder,cancel,ai-draft
+"దుష్ప్రభావ ""Training Brand""?",out_of_scope,medical,ai-draft
+"దుష్ప్రభావ ""Training Brand"" గుర్తు చేయి?",out_of_scope,medical,ai-draft
+"సురక్షితమేనా ""Training Brand""?",out_of_scope,medical,ai-draft
+"సురక్షితమేనా ""Training Brand"" గుర్తు చేయి?",out_of_scope,medical,ai-draft
+"తీసుకోవచ్చా ""Training Brand""?",out_of_scope,medical,ai-draft
+"తీసుకోవచ్చా ""Training Brand"" గుర్తు చేయి?",out_of_scope,medical,ai-draft
+"మోతాదు పెంచ ""Training Brand""?",out_of_scope,medical,ai-draft
+"మోతాదు పెంచ ""Training Brand"" గుర్తు చేయి?",out_of_scope,medical,ai-draft
+"మోతాదు తగ్గ ""Training Brand""?",out_of_scope,medical,ai-draft
+"మోతాదు తగ్గ ""Training Brand"" గుర్తు చేయి?",out_of_scope,medical,ai-draft
+రిమైండర్లు చూపించు!,view_reminders,legitimate,ai-draft
+reminders chupinchu!,view_reminders,legitimate,ai-draft
+సహాయం!,help,legitimate,ai-draft
+నమస్కారం!,greeting,legitimate,ai-draft

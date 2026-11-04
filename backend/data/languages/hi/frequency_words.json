@@ -1,0 +1,14 @@
+{
+  "words": {
+    "दो बार": "twice_daily",
+    "रोज़": "once_daily",
+    "रोज": "once_daily"
+  },
+  "twice_defaults": [
+    "08:00",
+    "21:00"
+  ],
+  "unsupported": [
+    "एक दिन छोड़कर"
+  ]
+}

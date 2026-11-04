@@ -1,0 +1,17 @@
+{
+  "words": {
+    "ദിവസവും": "once_daily",
+    "എല്ലാ ദിവസവും": "once_daily",
+    "divasavum": "once_daily",
+    "ദിവസം രണ്ടുതവണ": "twice_daily"
+  },
+  "twice_defaults": [
+    "08:00",
+    "21:00"
+  ],
+  "unsupported": [
+    "ഒന്നിടവിട്ട",
+    "നാളെ",
+    "ആഴ്ചയിൽ"
+  ]
+}

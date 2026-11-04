@@ -1,0 +1,87 @@
+{
+  "space": {
+    "none": 0,
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "screen": 20,
+    "xl": 24,
+    "xxl": 32,
+    "section": 48
+  },
+  "radius": {
+    "input": 16,
+    "button": 18,
+    "card": 22,
+    "bubble": 20,
+    "sheet": 28,
+    "round": 999
+  },
+  "size": {
+    "button": 48,
+    "touch": 48,
+    "minimum": 48,
+    "lampToday": 64,
+    "lampTalk": 88,
+    "node": 28,
+    "glyph": 40,
+    "icon": 24,
+    "iconSmall": 20,
+    "iconVisual": 32,
+    "brand": 32,
+    "languageRow": 64,
+    "tabBar": 56,
+    "rail": 2,
+    "outline": 1,
+    "highContrastOutline": 3,
+    "focus": 3,
+    "rule": 3,
+    "divider": 1,
+    "handleWidth": 48,
+    "handleHeight": 4,
+    "skeletonWidth": 180,
+    "illustration": 48,
+    "maxContent": 720
+  },
+  "motion": {
+    "idle": 4000,
+    "save": 420,
+    "taken": 700,
+    "hold": 1200,
+    "sheet": 260,
+    "tab": 180,
+    "due": 2000,
+    "launch": 800,
+    "volumeThrottle": 100
+  },
+  "a11y": {
+    "textScales": {
+      "standard": 1,
+      "large": 1.25,
+      "extraLarge": 1.5
+    },
+    "maxCombinedScale": 2,
+    "minimumBodyContrast": 7,
+    "minimumBoundaryContrast": 3
+  },
+  "opacity": {
+    "glow": 0.24,
+    "glowLow": 0.1,
+    "dim": 0.55,
+    "full": 1
+  },
+  "glass": {"ambientOpacity": 0.02, "topOpacity": 0.04, "middleOpacity": 0.025, "bottomOpacity": 0.01},
+  "shadow": {"radius": 6, "opacity": 0.12, "offset": 2, "elevation": 1},
+  "scale": {
+    "rest": 1,
+    "breathe": 1.08,
+    "glow": 1.5
+  },
+  "layout": {
+    "full": "100%",
+    "sheetMax": "90%",
+    "messageMax": "88%",
+    "half": "48%"
+  }
+}

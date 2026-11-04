@@ -1,0 +1,8 @@
+{
+  "data/languages/en/golden_test.csv": "505cb9b1ad166fe86950bffcb609edd5005a79d1916147476b48e1110e8ffd73",
+  "data/languages/hi/golden_test.csv": "85be1b9962795c18f980833a8ee9625735e80bf58b080caab8f9f029c133f60b",
+  "data/languages/ta/golden_test.csv": "1a6d4ef8de31b019e5771d32dedbe7ea2ea15c8a9472f40efc62e12755212ffc",
+  "data/languages/ml/golden_test.csv": "06f845d8af1649a633bcd1226d4dbf1f8e1cc4bacb1ac204b96b19d1ca2b97ef",
+  "data/languages/kn/golden_test.csv": "23f852da3c95d967c25b3b0f1b287d572a9919d36c7cb4448a96c1bf7aab1f5b",
+  "data/languages/te/golden_test.csv": "c91bb4873960ab97a4c8865b8509b278bb5bcc8765e252869ab33fa88342e623"
+}

@@ -1,0 +1,46 @@
+text,intent,review_status
+எனக்கு தினமும் காலை 8 மணிக்கு மெட்ஃபார்மின் மாத்திரை நினைவூட்டு,add_reminder,legacy-unreviewed
+மதியம் சாப்பாட்டுக்கு அப்புறம் ஒரு மாத்திரை எடுக்க வேண்டும் நினைவூட்டு,add_reminder,legacy-unreviewed
+இரவு 9 மணிக்கு இன்சுலின் ஊசி போட நினைவூட்டு,add_reminder,legacy-unreviewed
+தினமும் இரண்டு வேளை பாராசிட்டமால் சாப்பிட நினைவூட்டு,add_reminder,legacy-unreviewed
+காலை உணவுக்கு முன் ஒரு மாத்திரை எடுக்க நினைவூட்டு,add_reminder,legacy-unreviewed
+இரவு தூங்குமுன் ஆஸ்பிரின் மாத்திரை நினைவூட்டு,add_reminder,legacy-unreviewed
+தினமும் காலையில் அம்லோடிபின் மாத்திரை நினைவூட்டு,add_reminder,legacy-unreviewed
+இரவு சாப்பாட்டுக்கு பின் மாத்திரை நினைவூட்டு வேண்டும்,add_reminder,legacy-unreviewed
+காலை 8 மணிக்கு சர்க்கரை மாத்திரை நினைவூட்டு,add_reminder,legacy-unreviewed
+மெட்ஃபார்மின் தினமும் இரு வேளை நினைவூட்டு,add_reminder,legacy-unreviewed
+என் மாத்திரை நேரம் என்ன,view_reminders,legacy-unreviewed
+இன்று என்ன மாத்திரை எடுக்க வேண்டும்,view_reminders,legacy-unreviewed
+என் நினைவூட்டல்களை காட்டு,view_reminders,legacy-unreviewed
+நான் என்ன மருந்து சாப்பிட வேண்டும்,view_reminders,legacy-unreviewed
+என் மாத்திரை பட்டியலை காட்டு,view_reminders,legacy-unreviewed
+இப்போது என்ன மாத்திரை எடுக்க வேண்டும்,view_reminders,legacy-unreviewed
+என் நினைவூட்டல்கள் என்ன காட்டு,view_reminders,legacy-unreviewed
+எனக்கு உள்ள நினைவூட்டல்களை காட்டு,view_reminders,legacy-unreviewed
+நான் வைத்திருக்கும் நினைவூட்டல்களை பட்டியல் போடு,view_reminders,legacy-unreviewed
+என்னுடைய மாத்திரை பட்டியலை சொல்லு,view_reminders,legacy-unreviewed
+காட்டு,view_reminders,legacy-unreviewed
+பட்டியல்,view_reminders,legacy-unreviewed
+மெட்ஃபார்மின் நினைவூட்டலை நிறுத்து,cancel_reminder,legacy-unreviewed
+இந்த மாத்திரை நினைவூட்டலை நீக்கு,cancel_reminder,legacy-unreviewed
+இனிமேல் அந்த மருந்து தேவை இல்லை நிறுத்து,cancel_reminder,legacy-unreviewed
+இன்சுலின் நினைவூட்டலை நிறுத்து,cancel_reminder,legacy-unreviewed
+இந்த நினைவூட்டலை வைக்க வேண்டாம் நீக்கு,cancel_reminder,legacy-unreviewed
+பாராசிட்டமால் நினைவூட்டலை நிறுத்து,cancel_reminder,legacy-unreviewed
+வணக்கம்,greeting,legacy-unreviewed
+எப்படி இருக்க,greeting,legacy-unreviewed
+காலை வணக்கம்,greeting,legacy-unreviewed
+ஹலோ,greeting,legacy-unreviewed
+வணக்கம் நண்பா,greeting,legacy-unreviewed
+மாலை வணக்கம்,greeting,legacy-unreviewed
+எனக்கு தலைவலி இருக்கு என்ன செய்யலாம்,out_of_scope,legacy-unreviewed
+இந்த மருந்து எனக்கு சரியா,out_of_scope,legacy-unreviewed
+மாத்திரையை மாத்திக்கலாமா,out_of_scope,legacy-unreviewed
+எனக்கு சர்க்கரை அளவு எவ்வளவு இருக்க வேண்டும்,out_of_scope,legacy-unreviewed
+காய்ச்சலுக்கு என்ன மாத்திரை சாப்பிடலாம்,out_of_scope,legacy-unreviewed
+ரெண்டு மாத்திரை ஒன்றாக சாப்பிடலாமா,out_of_scope,legacy-unreviewed
+மெட்ஃபார்மின் எனக்கு பாதுகாப்பானதா,out_of_scope,legacy-unreviewed
+பாராசிட்டமால் சாப்பிடுவதை நிறுத்தலாமா,out_of_scope,legacy-unreviewed
+ஆஸ்பிரின் பக்கவிளைவுகள் என்ன,out_of_scope,legacy-unreviewed
+இன்சுலின் அளவை மாற்றலாமா,out_of_scope,legacy-unreviewed
+அம்லோடிபின் மற்ற மருந்துகளுடன் பாதுகாப்பானதா,out_of_scope,legacy-unreviewed

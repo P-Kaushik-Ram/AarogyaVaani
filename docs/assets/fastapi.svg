@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="25" viewBox="0 0 103 25" role="img" aria-label="FastAPI API">
+  <rect x=".5" y=".5" width="102" height="24" rx="5" fill="#0B1628" stroke="#2DD4BF"/>
+  <path d="M64 1H98Q102 1 102 5V20Q102 24 98 24H64Z" fill="#2DD4BF"/>
+  <g font-family="Verdana, sans-serif" font-size="10" text-anchor="middle">
+    <text x="32" y="16" fill="#F1FBFF">FastAPI</text>
+    <text x="83" y="16" fill="#0B1628" font-weight="bold">API</text>
+  </g>
+</svg>

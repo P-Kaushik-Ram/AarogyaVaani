@@ -1,0 +1,55 @@
+text,intent,category,review_status
+क्या मेटफॉर्मिन सुरक्षित है?,out_of_scope,medical,ai-draft
+क्या एस्पिरिन सुरक्षित है?,out_of_scope,medical,ai-draft
+क्या पैरासिटामोल सुरक्षित है?,out_of_scope,medical,ai-draft
+क्या ओमेप्राज़ोल सुरक्षित है?,out_of_scope,medical,ai-draft
+क्या इंसुलिन सुरक्षित है?,out_of_scope,medical,ai-draft
+मेटफॉर्मिन के साइड इफेक्ट क्या हैं?,out_of_scope,medical,ai-draft
+एस्पिरिन के साइड इफेक्ट क्या हैं?,out_of_scope,medical,ai-draft
+पैरासिटामोल के साइड इफेक्ट क्या हैं?,out_of_scope,medical,ai-draft
+ओमेप्राज़ोल के साइड इफेक्ट क्या हैं?,out_of_scope,medical,ai-draft
+इंसुलिन के साइड इफेक्ट क्या हैं?,out_of_scope,medical,ai-draft
+क्या मैं मेटफॉर्मिन लेना बंद कर सकता हूँ?,out_of_scope,medical,ai-draft
+क्या मैं एस्पिरिन लेना बंद कर सकता हूँ?,out_of_scope,medical,ai-draft
+क्या मैं पैरासिटामोल लेना बंद कर सकता हूँ?,out_of_scope,medical,ai-draft
+क्या मैं ओमेप्राज़ोल लेना बंद कर सकता हूँ?,out_of_scope,medical,ai-draft
+क्या मैं इंसुलिन लेना बंद कर सकता हूँ?,out_of_scope,medical,ai-draft
+मेटफॉर्मिन की खुराक बढ़ा दूँ?,out_of_scope,medical,ai-draft
+एस्पिरिन की खुराक बढ़ा दूँ?,out_of_scope,medical,ai-draft
+पैरासिटामोल की खुराक बढ़ा दूँ?,out_of_scope,medical,ai-draft
+ओमेप्राज़ोल की खुराक बढ़ा दूँ?,out_of_scope,medical,ai-draft
+इंसुलिन की खुराक बढ़ा दूँ?,out_of_scope,medical,ai-draft
+मेटफॉर्मिन याद दिलाओ और बताओ क्या यह सुरक्षित है,out_of_scope,medical,ai-draft
+एस्पिरिन याद दिलाओ और बताओ क्या यह सुरक्षित है,out_of_scope,medical,ai-draft
+पैरासिटामोल याद दिलाओ और बताओ क्या यह सुरक्षित है,out_of_scope,medical,ai-draft
+ओमेप्राज़ोल याद दिलाओ और बताओ क्या यह सुरक्षित है,out_of_scope,medical,ai-draft
+इंसुलिन याद दिलाओ और बताओ क्या यह सुरक्षित है,out_of_scope,medical,ai-draft
+मुझे सुबह मेटफॉर्मिन की खुराक याद दिलाओ,add_reminder,legitimate,ai-draft
+मुझे सुबह एस्पिरिन की खुराक याद दिलाओ,add_reminder,legitimate,ai-draft
+मुझे सुबह पैरासिटामोल की खुराक याद दिलाओ,add_reminder,legitimate,ai-draft
+मुझे सुबह ओमेप्राज़ोल की खुराक याद दिलाओ,add_reminder,legitimate,ai-draft
+मुझे सुबह इंसुलिन की खुराक याद दिलाओ,add_reminder,legitimate,ai-draft
+मेटफॉर्मिन रोज़ दो बार याद दिलाओ,add_reminder,legitimate,ai-draft
+एस्पिरिन रोज़ दो बार याद दिलाओ,add_reminder,legitimate,ai-draft
+पैरासिटामोल रोज़ दो बार याद दिलाओ,add_reminder,legitimate,ai-draft
+ओमेप्राज़ोल रोज़ दो बार याद दिलाओ,add_reminder,legitimate,ai-draft
+इंसुलिन रोज़ दो बार याद दिलाओ,add_reminder,legitimate,ai-draft
+मेटफॉर्मिन रात 8 बजे याद दिलाओ,add_reminder,legitimate,ai-draft
+एस्पिरिन रात 8 बजे याद दिलाओ,add_reminder,legitimate,ai-draft
+पैरासिटामोल रात 8 बजे याद दिलाओ,add_reminder,legitimate,ai-draft
+ओमेप्राज़ोल रात 8 बजे याद दिलाओ,add_reminder,legitimate,ai-draft
+इंसुलिन रात 8 बजे याद दिलाओ,add_reminder,legitimate,ai-draft
+मेटफॉर्मिन का रिमाइंडर रोक दो,cancel_reminder,cancel,ai-draft
+एस्पिरिन का रिमाइंडर रोक दो,cancel_reminder,cancel,ai-draft
+पैरासिटामोल का रिमाइंडर रोक दो,cancel_reminder,cancel,ai-draft
+ओमेप्राज़ोल का रिमाइंडर रोक दो,cancel_reminder,cancel,ai-draft
+इंसुलिन का रिमाइंडर रोक दो,cancel_reminder,cancel,ai-draft
+मेटफॉर्मिन का रिमाइंडर रद्द करो,cancel_reminder,cancel,ai-draft
+एस्पिरिन का रिमाइंडर रद्द करो,cancel_reminder,cancel,ai-draft
+पैरासिटामोल का रिमाइंडर रद्द करो,cancel_reminder,cancel,ai-draft
+ओमेप्राज़ोल का रिमाइंडर रद्द करो,cancel_reminder,cancel,ai-draft
+इंसुलिन का रिमाइंडर रद्द करो,cancel_reminder,cancel,ai-draft
+क्या metformin सुरक्षित है?,out_of_scope,medical,ai-draft
+मुझे सुबह metformin की खुराक याद दिलाओ,add_reminder,legitimate,ai-draft
+metformin का रिमाइंडर रोक दो,cancel_reminder,cancel,ai-draft
+മരുന്ന് ഓർമ്മിപ്പിക്കൂ,unsupported_language,unsupported,ai-draft

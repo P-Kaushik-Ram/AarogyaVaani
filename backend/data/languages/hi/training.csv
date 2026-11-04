@@ -1,0 +1,48 @@
+text,intent,review_status
+मुझे रोज़ सुबह 8 बजे मेटफॉर्मिन की गोली की याद दिलाओ,add_reminder,legacy-unreviewed
+दोपहर के खाने के बाद एक गोली लेनी है याद दिलाओ,add_reminder,legacy-unreviewed
+रात 9 बजे इंसुलिन का इंजेक्शन याद दिलाओ,add_reminder,legacy-unreviewed
+रोज़ दो बार पैरासिटामोल लेनी है याद दिलाओ,add_reminder,legacy-unreviewed
+नाश्ते से पहले एक गोली याद दिलाओ,add_reminder,legacy-unreviewed
+रात को सोने से पहले एस्पिरिन की गोली याद दिलाओ,add_reminder,legacy-unreviewed
+रोज़ सुबह एम्लोडिपिन की गोली याद दिलाओ,add_reminder,legacy-unreviewed
+रात के खाने के बाद गोली की याद दिलाओ,add_reminder,legacy-unreviewed
+सुबह 8 बजे शुगर की गोली याद दिलाओ,add_reminder,legacy-unreviewed
+मेटफॉर्मिन रोज़ दो बार याद दिलाओ,add_reminder,legacy-unreviewed
+மेरी दवा का समय क्या है,view_reminders,legacy-unreviewed
+आज कौन सी दवा लेनी है,view_reminders,legacy-unreviewed
+मेरे रिमाइंडर दिखाओ,view_reminders,legacy-unreviewed
+मुझे कौन सी दवाई खानी है,view_reminders,legacy-unreviewed
+मेरी दवाइयों की लिस्ट दिखाओ,view_reminders,legacy-unreviewed
+अभी कौन सी गोली लेनी है,view_reminders,legacy-unreviewed
+मेरे सारे रिमाइंडर दिखाओ,view_reminders,legacy-unreviewed
+मेरी दवाओं की सूची बताओ,view_reminders,legacy-unreviewed
+आज की सारी दवाइयां दिखाओ,view_reminders,legacy-unreviewed
+मुझे अपने रिमाइंडर की जानकारी दो,view_reminders,legacy-unreviewed
+दिखाओ,view_reminders,legacy-unreviewed
+सूची,view_reminders,legacy-unreviewed
+मेटफॉर्मिन का रिमाइंडर बंद करो,cancel_reminder,legacy-unreviewed
+इस दवा का रिमाइंडर हटाओ,cancel_reminder,legacy-unreviewed
+अब वो दवा नहीं चाहिए बंद करो,cancel_reminder,legacy-unreviewed
+इंसुलिन का रिमाइंडर बंद करो,cancel_reminder,legacy-unreviewed
+यह रिमाइंडर मत रखो हटा दो,cancel_reminder,legacy-unreviewed
+पैरासिटामोल का रिमाइंडर बंद कर दो,cancel_reminder,legacy-unreviewed
+हाय,greeting,legacy-unreviewed
+नमस्ते,greeting,legacy-unreviewed
+कैसे हो,greeting,legacy-unreviewed
+सुप्रभात,greeting,legacy-unreviewed
+हेलो,greeting,legacy-unreviewed
+शुभ संध्या,greeting,legacy-unreviewed
+नमस्कार,greeting,legacy-unreviewed
+मुझे सिरदर्द है क्या करूं,out_of_scope,legacy-unreviewed
+क्या यह दवा मेरे लिए सही है,out_of_scope,legacy-unreviewed
+क्या मैं दवा की मात्रा बदल सकता हूं,out_of_scope,legacy-unreviewed
+मेरा शुगर लेवल कितना होना चाहिए,out_of_scope,legacy-unreviewed
+बुखार के लिए कौन सी दवा लूं,out_of_scope,legacy-unreviewed
+मुझे पेट में दर्द है क्या करूं,out_of_scope,legacy-unreviewed
+क्या यह दवा सुरक्षित है,out_of_scope,legacy-unreviewed
+क्या मेटफॉर्मिन सुरक्षित है,out_of_scope,legacy-unreviewed
+क्या मैं पैरासिटामोल लेना बंद कर सकता हूं,out_of_scope,legacy-unreviewed
+एस्पिरिन के साइड इफेक्ट क्या हैं,out_of_scope,legacy-unreviewed
+क्या मैं इंसुलिन की खुराक बदल सकता हूं,out_of_scope,legacy-unreviewed
+क्या एम्लोडिपिन दूसरी दवाओं के साथ सुरक्षित है,out_of_scope,legacy-unreviewed

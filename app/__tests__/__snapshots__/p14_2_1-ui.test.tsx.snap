@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`compact header and startup render-tree snapshots retain the new identity: compact native header 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "gap": 8,
+      "minHeight": 72,
+      "paddingVertical": 8,
+    }
+  }
+  testID="brand-header"
+>
+  <Image
+    accessible={false}
+    importantForAccessibility="no"
+    resizeMode="contain"
+    source={
+      {
+        "testUri": "../../../assets/branding/aarogyavaani_app_icon.png",
+      }
+    }
+    style={
+      {
+        "flexShrink": 0,
+        "height": 44,
+        "width": 44,
+      }
+    }
+    testID="brand-symbol"
+  />
+  <View
+    style={
+      {
+        "flex": 1,
+        "gap": 0,
+        "minWidth": 0,
+      }
+    }
+  >
+    <Text
+      accessibilityLabel="AarogyaVaani"
+      accessibilityRole="header"
+      allowFontScaling={true}
+      maxFontSizeMultiplier={2}
+      style={
+        [
+          {
+            "flexShrink": 1,
+            "fontFamily": "NotoSans_700Bold",
+            "fontSize": 18,
+            "fontVariant": undefined,
+            "fontWeight": "normal",
+            "includeFontPadding": true,
+            "lineHeight": 28,
+          },
+          {
+            "color": "#FFF8EC",
+          },
+          undefined,
+        ]
+      }
+    >
+      Aarogya
+      <Text
+        style={
+          {
+            "color": "#FF9F1C",
+          }
+        }
+      >
+        Vaani
+      </Text>
+    </Text>
+    <Text
+      allowFontScaling={true}
+      maxFontSizeMultiplier={2}
+      style={
+        [
+          {
+            "flexShrink": 1,
+            "fontFamily": "NotoSans_400Regular",
+            "fontSize": 12,
+            "fontVariant": undefined,
+            "fontWeight": "normal",
+            "includeFontPadding": true,
+            "lineHeight": 20,
+          },
+          {
+            "color": "#FFF8EC",
+          },
+          {
+            "color": "#CCDCE5",
+          },
+        ]
+      }
+    >
+      Your health companion
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`compact header and startup render-tree snapshots retain the new identity: official startup identity 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "gap": 12,
+    }
+  }
+  testID="startup-brand"
+>
+  <Image
+    accessible={false}
+    importantForAccessibility="no"
+    resizeMode="contain"
+    source={
+      {
+        "testUri": "../../../assets/branding/aarogyavaani_app_icon.png",
+      }
+    }
+    style={
+      {
+        "height": 88,
+        "width": 88,
+      }
+    }
+    testID="brand-symbol"
+  />
+  <Text
+    allowFontScaling={true}
+    maxFontSizeMultiplier={2}
+    style={
+      [
+        {
+          "flexShrink": 1,
+          "fontFamily": "NotoSans_600SemiBold",
+          "fontSize": 18,
+          "fontVariant": undefined,
+          "fontWeight": "normal",
+          "includeFontPadding": true,
+          "lineHeight": 28,
+        },
+        {
+          "color": "#FFF8EC",
+        },
+        undefined,
+      ]
+    }
+  >
+    AarogyaVaani
+  </Text>
+</View>
+`;

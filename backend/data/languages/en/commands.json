@@ -1,0 +1,29 @@
+{
+  "add": [
+    "remind",
+    "reminder for",
+    "set a reminder",
+    "set ",
+    "take "
+  ],
+  "view": [
+    "show",
+    "view",
+    "list"
+  ],
+  "cancel": [
+    "cancel",
+    "delete",
+    "remove",
+    "stop reminder"
+  ],
+  "help": [
+    "help",
+    "what can you do"
+  ],
+  "greeting": [
+    "hello",
+    "hi",
+    "hey"
+  ]
+}

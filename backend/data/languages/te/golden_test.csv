@@ -1,0 +1,53 @@
+text,intent,category,review_status
+"గుర్తు చేయి ""Test Brand 1"" రాత్రి 1 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 1""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Test Brand 2"" రాత్రి 2 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 2""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Test Brand 3"" రాత్రి 3 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 3""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Test Brand 4"" రాత్రి 4 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 4""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Test Brand 5"" రాత్రి 5 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 5""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Test Brand 6"" రాత్రి 6 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 6""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Test Brand 7"" రాత్రి 7 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 7""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Test Brand 8"" రాత్రి 8 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 8""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Test Brand 9"" రాత్రి 9 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 9""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Test Brand 10"" రాత్రి 10 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 10""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Test Brand 11"" రాత్రి 11 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 11""",cancel_reminder,cancel,ai-draft
+"గుర్తు చేయి ""Test Brand 12"" రాత్రి 12 గంటలకు ప్రతిరోజూ",add_reminder,legitimate,ai-draft
+"రిమైండర్ రద్దు చేయి ""Test Brand 12""",cancel_reminder,cancel,ai-draft
+దుష్ప్రభావ,out_of_scope,medical,ai-draft
+"దుష్ప్రభావ ""Test Brand""",out_of_scope,medical,ai-draft
+దుష్ప్రభావ 8 PM,out_of_scope,medical,ai-draft
+దుష్ప్రభావ గుర్తు చేయి,out_of_scope,medical,ai-draft
+దుష్ప్రభావ ప్రతిరోజూ,out_of_scope,medical,ai-draft
+సురక్షితమేనా,out_of_scope,medical,ai-draft
+"సురక్షితమేనా ""Test Brand""",out_of_scope,medical,ai-draft
+సురక్షితమేనా 8 PM,out_of_scope,medical,ai-draft
+సురక్షితమేనా గుర్తు చేయి,out_of_scope,medical,ai-draft
+సురక్షితమేనా ప్రతిరోజూ,out_of_scope,medical,ai-draft
+తీసుకోవచ్చా,out_of_scope,medical,ai-draft
+"తీసుకోవచ్చా ""Test Brand""",out_of_scope,medical,ai-draft
+తీసుకోవచ్చా 8 PM,out_of_scope,medical,ai-draft
+తీసుకోవచ్చా గుర్తు చేయి,out_of_scope,medical,ai-draft
+తీసుకోవచ్చా ప్రతిరోజూ,out_of_scope,medical,ai-draft
+మోతాదు పెంచ,out_of_scope,medical,ai-draft
+"మోతాదు పెంచ ""Test Brand""",out_of_scope,medical,ai-draft
+మోతాదు పెంచ 8 PM,out_of_scope,medical,ai-draft
+మోతాదు పెంచ గుర్తు చేయి,out_of_scope,medical,ai-draft
+మోతాదు పెంచ ప్రతిరోజూ,out_of_scope,medical,ai-draft
+మోతాదు తగ్గ,out_of_scope,medical,ai-draft
+"మోతాదు తగ్గ ""Test Brand""",out_of_scope,medical,ai-draft
+మోతాదు తగ్గ 8 PM,out_of_scope,medical,ai-draft
+మోతాదు తగ్గ గుర్తు చేయి,out_of_scope,medical,ai-draft
+మోతాదు తగ్గ ప్రతిరోజూ,out_of_scope,medical,ai-draft
+రిమైండర్లు చూపించు,view_reminders,legitimate,ai-draft
+నమస్కారం,greeting,legitimate,ai-draft
+సహాయం,help,legitimate,ai-draft

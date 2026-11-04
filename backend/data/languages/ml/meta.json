@@ -1,0 +1,9 @@
+{
+  "code": "ml",
+  "script": "Malayalam",
+  "speech_locale": "ml-IN",
+  "readiness_ui": false,
+  "readiness_understanding": false,
+  "readiness_voice": false,
+  "review_status": "ai-draft"
+}

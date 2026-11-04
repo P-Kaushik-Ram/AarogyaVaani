@@ -1,0 +1,9 @@
+{
+  "code": "ta",
+  "script": "Tamil",
+  "speech_locale": "ta-IN",
+  "readiness_ui": false,
+  "readiness_understanding": false,
+  "readiness_voice": false,
+  "review_status": "ai-draft"
+}

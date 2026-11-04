@@ -1,0 +1,148 @@
+text,intent,language
+"remind me to take metformin every morning at 8",add_reminder,en
+"I need to take a tablet after lunch daily",add_reminder,en
+"set a reminder for insulin injection at 9 pm",add_reminder,en
+"remind me twice a day for paracetamol",add_reminder,en
+"one tablet before breakfast every day",add_reminder,en
+"please remind me to take aspirin at night",add_reminder,en
+"I take amlodipine every morning add a reminder",add_reminder,en
+"set reminder atorvastatin 10 pm daily",add_reminder,en
+"add a reminder for my sugar tablet in the morning",add_reminder,en
+"remind me after dinner to take my tablet",add_reminder,en
+"add metformin reminder twice daily",add_reminder,en
+"I have to take insulin before breakfast remind me",add_reminder,en
+"எனக்கு தினமும் காலை 8 மணிக்கு மெட்ஃபார்மின் மாத்திரை நினைவூட்டு",add_reminder,ta
+"மதியம் சாப்பாட்டுக்கு அப்புறம் ஒரு மாத்திரை எடுக்க வேண்டும் நினைவூட்டு",add_reminder,ta
+"இரவு 9 மணிக்கு இன்சுலின் ஊசி போட நினைவூட்டு",add_reminder,ta
+"தினமும் இரண்டு வேளை பாராசிட்டமால் சாப்பிட நினைவூட்டு",add_reminder,ta
+"காலை உணவுக்கு முன் ஒரு மாத்திரை எடுக்க நினைவூட்டு",add_reminder,ta
+"இரவு தூங்குமுன் ஆஸ்பிரின் மாத்திரை நினைவூட்டு",add_reminder,ta
+"தினமும் காலையில் அம்லோடிபின் மாத்திரை நினைவூட்டு",add_reminder,ta
+"இரவு சாப்பாட்டுக்கு பின் மாத்திரை நினைவூட்டு வேண்டும்",add_reminder,ta
+"காலை 8 மணிக்கு சர்க்கரை மாத்திரை நினைவூட்டு",add_reminder,ta
+"மெட்ஃபார்மின் தினமும் இரு வேளை நினைவூட்டு",add_reminder,ta
+"मुझे रोज़ सुबह 8 बजे मेटफॉर्मिन की गोली की याद दिलाओ",add_reminder,hi
+"दोपहर के खाने के बाद एक गोली लेनी है याद दिलाओ",add_reminder,hi
+"रात 9 बजे इंसुलिन का इंजेक्शन याद दिलाओ",add_reminder,hi
+"रोज़ दो बार पैरासिटामोल लेनी है याद दिलाओ",add_reminder,hi
+"नाश्ते से पहले एक गोली याद दिलाओ",add_reminder,hi
+"रात को सोने से पहले एस्पिरिन की गोली याद दिलाओ",add_reminder,hi
+"रोज़ सुबह एम्लोडिपिन की गोली याद दिलाओ",add_reminder,hi
+"रात के खाने के बाद गोली की याद दिलाओ",add_reminder,hi
+"सुबह 8 बजे शुगर की गोली याद दिलाओ",add_reminder,hi
+"मेटफॉर्मिन रोज़ दो बार याद दिलाओ",add_reminder,hi
+"what is my medicine time",view_reminders,en
+"what tablets do I take today",view_reminders,en
+"show my reminders",view_reminders,en
+"which medicine should I take now",view_reminders,en
+"list my medicines",view_reminders,en
+"what do I have to take today",view_reminders,en
+"tell me my reminders for today",view_reminders,en
+"show all my reminders",view_reminders,en
+"can you list my medicine schedule",view_reminders,en
+"view",view_reminders,en
+"view reminders",view_reminders,en
+"show",view_reminders,en
+"list",view_reminders,en
+"என் மாத்திரை நேரம் என்ன",view_reminders,ta
+"இன்று என்ன மாத்திரை எடுக்க வேண்டும்",view_reminders,ta
+"என் நினைவூட்டல்களை காட்டு",view_reminders,ta
+"நான் என்ன மருந்து சாப்பிட வேண்டும்",view_reminders,ta
+"என் மாத்திரை பட்டியலை காட்டு",view_reminders,ta
+"இப்போது என்ன மாத்திரை எடுக்க வேண்டும்",view_reminders,ta
+"என் நினைவூட்டல்கள் என்ன காட்டு",view_reminders,ta
+"எனக்கு உள்ள நினைவூட்டல்களை காட்டு",view_reminders,ta
+"நான் வைத்திருக்கும் நினைவூட்டல்களை பட்டியல் போடு",view_reminders,ta
+"என்னுடைய மாத்திரை பட்டியலை சொல்லு",view_reminders,ta
+"காட்டு",view_reminders,ta
+"பட்டியல்",view_reminders,ta
+"மेरी दवा का समय क्या है",view_reminders,hi
+"आज कौन सी दवा लेनी है",view_reminders,hi
+"मेरे रिमाइंडर दिखाओ",view_reminders,hi
+"मुझे कौन सी दवाई खानी है",view_reminders,hi
+"मेरी दवाइयों की लिस्ट दिखाओ",view_reminders,hi
+"अभी कौन सी गोली लेनी है",view_reminders,hi
+"मेरे सारे रिमाइंडर दिखाओ",view_reminders,hi
+"मेरी दवाओं की सूची बताओ",view_reminders,hi
+"आज की सारी दवाइयां दिखाओ",view_reminders,hi
+"मुझे अपने रिमाइंडर की जानकारी दो",view_reminders,hi
+"दिखाओ",view_reminders,hi
+"सूची",view_reminders,hi
+"stop the metformin reminder",cancel_reminder,en
+"remove this tablet reminder",cancel_reminder,en
+"I don't need that medicine anymore",cancel_reminder,en
+"cancel my insulin reminder",cancel_reminder,en
+"delete the paracetamol reminder",cancel_reminder,en
+"மெட்ஃபார்மின் நினைவூட்டலை நிறுத்து",cancel_reminder,ta
+"இந்த மாத்திரை நினைவூட்டலை நீக்கு",cancel_reminder,ta
+"இனிமேல் அந்த மருந்து தேவை இல்லை நிறுத்து",cancel_reminder,ta
+"இன்சுலின் நினைவூட்டலை நிறுத்து",cancel_reminder,ta
+"இந்த நினைவூட்டலை வைக்க வேண்டாம் நீக்கு",cancel_reminder,ta
+"பாராசிட்டமால் நினைவூட்டலை நிறுத்து",cancel_reminder,ta
+"मेटफॉर्मिन का रिमाइंडर बंद करो",cancel_reminder,hi
+"इस दवा का रिमाइंडर हटाओ",cancel_reminder,hi
+"अब वो दवा नहीं चाहिए बंद करो",cancel_reminder,hi
+"इंसुलिन का रिमाइंडर बंद करो",cancel_reminder,hi
+"यह रिमाइंडर मत रखो हटा दो",cancel_reminder,hi
+"पैरासिटामोल का रिमाइंडर बंद कर दो",cancel_reminder,hi
+"hello",greeting,en
+"hi there",greeting,en
+"how are you",greeting,en
+"good morning",greeting,en
+"hi",greeting,en
+"hey",greeting,en
+"good evening",greeting,en
+"good afternoon",greeting,en
+"வணக்கம்",greeting,ta
+"எப்படி இருக்க",greeting,ta
+"காலை வணக்கம்",greeting,ta
+"ஹலோ",greeting,ta
+"வணக்கம் நண்பா",greeting,ta
+"மாலை வணக்கம்",greeting,ta
+"हाय",greeting,hi
+"नमस्ते",greeting,hi
+"कैसे हो",greeting,hi
+"सुप्रभात",greeting,hi
+"हेलो",greeting,hi
+"शुभ संध्या",greeting,hi
+"नमस्कार",greeting,hi
+"I have a headache what should I do",out_of_scope,en
+"is this medicine right for me",out_of_scope,en
+"can I change my medicine dosage",out_of_scope,en
+"what should my sugar level be",out_of_scope,en
+"should I stop taking this tablet",out_of_scope,en
+"what medicine should I take for fever",out_of_scope,en
+"is it safe to take two tablets together",out_of_scope,en
+"is metformin safe for me",out_of_scope,en
+"can I stop taking paracetamol",out_of_scope,en
+"what are the side effects of aspirin",out_of_scope,en
+"can I change my insulin dosage",out_of_scope,en
+"is amlodipine safe with other medicines",out_of_scope,en
+"should I stop metformin if I feel dizzy",out_of_scope,en
+"can I take more paracetamol if pain continues",out_of_scope,en
+"is it safe to double my atorvastatin dose",out_of_scope,en
+"what happens if I miss my insulin dose",out_of_scope,en
+"can aspirin cause stomach problems",out_of_scope,en
+"எனக்கு தலைவலி இருக்கு என்ன செய்யலாம்",out_of_scope,ta
+"இந்த மருந்து எனக்கு சரியா",out_of_scope,ta
+"மாத்திரையை மாத்திக்கலாமா",out_of_scope,ta
+"எனக்கு சர்க்கரை அளவு எவ்வளவு இருக்க வேண்டும்",out_of_scope,ta
+"காய்ச்சலுக்கு என்ன மாத்திரை சாப்பிடலாம்",out_of_scope,ta
+"ரெண்டு மாத்திரை ஒன்றாக சாப்பிடலாமா",out_of_scope,ta
+"மெட்ஃபார்மின் எனக்கு பாதுகாப்பானதா",out_of_scope,ta
+"பாராசிட்டமால் சாப்பிடுவதை நிறுத்தலாமா",out_of_scope,ta
+"ஆஸ்பிரின் பக்கவிளைவுகள் என்ன",out_of_scope,ta
+"இன்சுலின் அளவை மாற்றலாமா",out_of_scope,ta
+"அம்லோடிபின் மற்ற மருந்துகளுடன் பாதுகாப்பானதா",out_of_scope,ta
+"मुझे सिरदर्द है क्या करूं",out_of_scope,hi
+"क्या यह दवा मेरे लिए सही है",out_of_scope,hi
+"क्या मैं दवा की मात्रा बदल सकता हूं",out_of_scope,hi
+"मेरा शुगर लेवल कितना होना चाहिए",out_of_scope,hi
+"बुखार के लिए कौन सी दवा लूं",out_of_scope,hi
+"मुझे पेट में दर्द है क्या करूं",out_of_scope,hi
+"क्या यह दवा सुरक्षित है",out_of_scope,hi
+"क्या मेटफॉर्मिन सुरक्षित है",out_of_scope,hi
+"क्या मैं पैरासिटामोल लेना बंद कर सकता हूं",out_of_scope,hi
+"एस्पिरिन के साइड इफेक्ट क्या हैं",out_of_scope,hi
+"क्या मैं इंसुलिन की खुराक बदल सकता हूं",out_of_scope,hi
+"क्या एम्लोडिपिन दूसरी दवाओं के साथ सुरक्षित है",out_of_scope,hi

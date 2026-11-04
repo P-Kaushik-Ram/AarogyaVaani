@@ -1,0 +1,51 @@
+text,intent,category,review_status
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 1"" രാത്രി 1 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 1"" at 1 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 1""",cancel_reminder,cancel,ai-draft
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 2"" രാത്രി 2 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 2"" at 2 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 2""",cancel_reminder,cancel,ai-draft
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 3"" രാത്രി 3 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 3"" at 3 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 3""",cancel_reminder,cancel,ai-draft
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 4"" രാത്രി 4 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 4"" at 4 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 4""",cancel_reminder,cancel,ai-draft
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 5"" രാത്രി 5 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 5"" at 5 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 5""",cancel_reminder,cancel,ai-draft
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 6"" രാത്രി 6 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 6"" at 6 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 6""",cancel_reminder,cancel,ai-draft
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 7"" രാത്രി 7 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 7"" at 7 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 7""",cancel_reminder,cancel,ai-draft
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 8"" രാത്രി 8 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 8"" at 8 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 8""",cancel_reminder,cancel,ai-draft
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 9"" രാത്രി 9 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 9"" at 9 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 9""",cancel_reminder,cancel,ai-draft
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 10"" രാത്രി 10 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 10"" at 10 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 10""",cancel_reminder,cancel,ai-draft
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 11"" രാത്രി 11 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 11"" at 11 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 11""",cancel_reminder,cancel,ai-draft
+"ഓർമ്മിപ്പിക്കൂ ""Training Brand 12"" രാത്രി 12 മണിക്ക് ദിവസവും",add_reminder,legitimate,ai-draft
+"ormippikku ""Training Brand 12"" at 12 AM ദിവസവും",add_reminder,legitimate,ai-draft
+"ഓർമ്മപ്പെടുത്തൽ റദ്ദാക്കൂ ""Training Brand 12""",cancel_reminder,cancel,ai-draft
+"പാർശ്വഫല ""Training Brand""?",out_of_scope,medical,ai-draft
+"പാർശ്വഫല ""Training Brand"" ഓർമ്മിപ്പിക്കൂ?",out_of_scope,medical,ai-draft
+"സുരക്ഷിതമാണോ ""Training Brand""?",out_of_scope,medical,ai-draft
+"സുരക്ഷിതമാണോ ""Training Brand"" ഓർമ്മിപ്പിക്കൂ?",out_of_scope,medical,ai-draft
+"കഴിക്കാമോ ""Training Brand""?",out_of_scope,medical,ai-draft
+"കഴിക്കാമോ ""Training Brand"" ഓർമ്മിപ്പിക്കൂ?",out_of_scope,medical,ai-draft
+"ഡോസ് കൂട്ട ""Training Brand""?",out_of_scope,medical,ai-draft
+"ഡോസ് കൂട്ട ""Training Brand"" ഓർമ്മിപ്പിക്കൂ?",out_of_scope,medical,ai-draft
+"ഡോസ് കുറ ""Training Brand""?",out_of_scope,medical,ai-draft
+"ഡോസ് കുറ ""Training Brand"" ഓർമ്മിപ്പിക്കൂ?",out_of_scope,medical,ai-draft
+ഓർമ്മപ്പെടുത്തലുകൾ കാണിക്കൂ!,view_reminders,legitimate,ai-draft
+ormappeduthalukal kanikku!,view_reminders,legitimate,ai-draft
+സഹായം!,help,legitimate,ai-draft
+നമസ്കാരം!,greeting,legitimate,ai-draft

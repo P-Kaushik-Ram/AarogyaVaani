@@ -1,0 +1,15 @@
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import { getLocales } from 'expo-localization';
+import { getLanguage } from '../../config/languages';
+import en from './locales/en.json';
+import hi from './locales/hi.json';
+import ta from './locales/ta.json';
+import ml from './locales/ml.json';
+import kn from './locales/kn.json';
+import te from './locales/te.json';
+export const resources = {en:{translation:en},hi:{translation:hi},ta:{translation:ta},ml:{translation:ml},kn:{translation:kn},te:{translation:te}};
+export type CopyKey = keyof typeof en;
+export const defaultLanguage = getLanguage(getLocales()[0].languageCode ?? 'en').code;
+void i18n.use(initReactI18next).init({resources,lng:defaultLanguage,fallbackLng:'en',keySeparator:false,interpolation:{escapeValue:false},react:{useSuspense:false}});
+export default i18n;

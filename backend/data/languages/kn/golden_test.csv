@@ -1,0 +1,53 @@
+text,intent,category,review_status
+"ನೆನಪಿಸು ""Test Brand 1"" ರಾತ್ರಿ 1 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 1""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Test Brand 2"" ರಾತ್ರಿ 2 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 2""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Test Brand 3"" ರಾತ್ರಿ 3 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 3""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Test Brand 4"" ರಾತ್ರಿ 4 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 4""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Test Brand 5"" ರಾತ್ರಿ 5 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 5""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Test Brand 6"" ರಾತ್ರಿ 6 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 6""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Test Brand 7"" ರಾತ್ರಿ 7 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 7""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Test Brand 8"" ರಾತ್ರಿ 8 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 8""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Test Brand 9"" ರಾತ್ರಿ 9 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 9""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Test Brand 10"" ರಾತ್ರಿ 10 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 10""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Test Brand 11"" ರಾತ್ರಿ 11 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 11""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Test Brand 12"" ರಾತ್ರಿ 12 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Test Brand 12""",cancel_reminder,cancel,ai-draft
+ಅಡ್ಡಪರಿಣಾಮ,out_of_scope,medical,ai-draft
+"ಅಡ್ಡಪರಿಣಾಮ ""Test Brand""",out_of_scope,medical,ai-draft
+ಅಡ್ಡಪರಿಣಾಮ 8 PM,out_of_scope,medical,ai-draft
+ಅಡ್ಡಪರಿಣಾಮ ನೆನಪಿಸು,out_of_scope,medical,ai-draft
+ಅಡ್ಡಪರಿಣಾಮ ಪ್ರತಿದಿನ,out_of_scope,medical,ai-draft
+ಸುರಕ್ಷಿತವೇ,out_of_scope,medical,ai-draft
+"ಸುರಕ್ಷಿತವೇ ""Test Brand""",out_of_scope,medical,ai-draft
+ಸುರಕ್ಷಿತವೇ 8 PM,out_of_scope,medical,ai-draft
+ಸುರಕ್ಷಿತವೇ ನೆನಪಿಸು,out_of_scope,medical,ai-draft
+ಸುರಕ್ಷಿತವೇ ಪ್ರತಿದಿನ,out_of_scope,medical,ai-draft
+ತೆಗೆದುಕೊಳ್ಳಬಹುದೇ,out_of_scope,medical,ai-draft
+"ತೆಗೆದುಕೊಳ್ಳಬಹುದೇ ""Test Brand""",out_of_scope,medical,ai-draft
+ತೆಗೆದುಕೊಳ್ಳಬಹುದೇ 8 PM,out_of_scope,medical,ai-draft
+ತೆಗೆದುಕೊಳ್ಳಬಹುದೇ ನೆನಪಿಸು,out_of_scope,medical,ai-draft
+ತೆಗೆದುಕೊಳ್ಳಬಹುದೇ ಪ್ರತಿದಿನ,out_of_scope,medical,ai-draft
+ಡೋಸ್ ಹೆಚ್ಚ,out_of_scope,medical,ai-draft
+"ಡೋಸ್ ಹೆಚ್ಚ ""Test Brand""",out_of_scope,medical,ai-draft
+ಡೋಸ್ ಹೆಚ್ಚ 8 PM,out_of_scope,medical,ai-draft
+ಡೋಸ್ ಹೆಚ್ಚ ನೆನಪಿಸು,out_of_scope,medical,ai-draft
+ಡೋಸ್ ಹೆಚ್ಚ ಪ್ರತಿದಿನ,out_of_scope,medical,ai-draft
+ಡೋಸ್ ಕಡಿಮೆ,out_of_scope,medical,ai-draft
+"ಡೋಸ್ ಕಡಿಮೆ ""Test Brand""",out_of_scope,medical,ai-draft
+ಡೋಸ್ ಕಡಿಮೆ 8 PM,out_of_scope,medical,ai-draft
+ಡೋಸ್ ಕಡಿಮೆ ನೆನಪಿಸು,out_of_scope,medical,ai-draft
+ಡೋಸ್ ಕಡಿಮೆ ಪ್ರತಿದಿನ,out_of_scope,medical,ai-draft
+ಜ್ಞಾಪನೆಗಳನ್ನು ತೋರಿಸು,view_reminders,legitimate,ai-draft
+ನಮಸ್ಕಾರ,greeting,legitimate,ai-draft
+ಸಹಾಯ,help,legitimate,ai-draft

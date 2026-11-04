@@ -1,0 +1,14 @@
+{
+  "words": {
+    "இரு வேளை": "twice_daily",
+    "இரண்டு வேளை": "twice_daily",
+    "தினமும்": "once_daily"
+  },
+  "twice_defaults": [
+    "08:00",
+    "21:00"
+  ],
+  "unsupported": [
+    "ஒரு நாள் விட்டு"
+  ]
+}

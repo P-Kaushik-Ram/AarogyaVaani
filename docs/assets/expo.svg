@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="25" viewBox="0 0 106 25" role="img" aria-label="Expo SDK 57">
+  <rect x=".5" y=".5" width="105" height="24" rx="5" fill="#0B1628" stroke="#2DD4BF"/>
+  <path d="M67 1H101Q105 1 105 5V20Q105 24 101 24H67Z" fill="#2DD4BF"/>
+  <g font-family="Verdana, sans-serif" font-size="10" text-anchor="middle">
+    <text x="33.5" y="16" fill="#F1FBFF">Expo SDK</text>
+    <text x="86" y="16" fill="#0B1628" font-weight="bold">57</text>
+  </g>
+</svg>

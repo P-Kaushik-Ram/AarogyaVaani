@@ -1,0 +1,52 @@
+text,intent,category,review_status
+is metformin safe for me?,out_of_scope,medical,ai-draft
+is aspirin safe for me?,out_of_scope,medical,ai-draft
+is paracetamol safe for me?,out_of_scope,medical,ai-draft
+is omeprazole safe for me?,out_of_scope,medical,ai-draft
+is insulin safe for me?,out_of_scope,medical,ai-draft
+what are the side effects of metformin?,out_of_scope,medical,ai-draft
+what are the side effects of aspirin?,out_of_scope,medical,ai-draft
+what are the side effects of paracetamol?,out_of_scope,medical,ai-draft
+what are the side effects of omeprazole?,out_of_scope,medical,ai-draft
+what are the side effects of insulin?,out_of_scope,medical,ai-draft
+can I stop taking metformin?,out_of_scope,medical,ai-draft
+can I stop taking aspirin?,out_of_scope,medical,ai-draft
+can I stop taking paracetamol?,out_of_scope,medical,ai-draft
+can I stop taking omeprazole?,out_of_scope,medical,ai-draft
+can I stop taking insulin?,out_of_scope,medical,ai-draft
+should I increase my dose of metformin?,out_of_scope,medical,ai-draft
+should I increase my dose of aspirin?,out_of_scope,medical,ai-draft
+should I increase my dose of paracetamol?,out_of_scope,medical,ai-draft
+should I increase my dose of omeprazole?,out_of_scope,medical,ai-draft
+should I increase my dose of insulin?,out_of_scope,medical,ai-draft
+remind me about metformin and tell me if it is safe,out_of_scope,medical,ai-draft
+remind me about aspirin and tell me if it is safe,out_of_scope,medical,ai-draft
+remind me about paracetamol and tell me if it is safe,out_of_scope,medical,ai-draft
+remind me about omeprazole and tell me if it is safe,out_of_scope,medical,ai-draft
+remind me about insulin and tell me if it is safe,out_of_scope,medical,ai-draft
+remind me to take my dose of metformin every morning,add_reminder,legitimate,ai-draft
+remind me to take my dose of aspirin every morning,add_reminder,legitimate,ai-draft
+remind me to take my dose of paracetamol every morning,add_reminder,legitimate,ai-draft
+remind me to take my dose of omeprazole every morning,add_reminder,legitimate,ai-draft
+remind me to take my dose of insulin every morning,add_reminder,legitimate,ai-draft
+set a reminder for metformin at 8 pm,add_reminder,legitimate,ai-draft
+set a reminder for aspirin at 8 pm,add_reminder,legitimate,ai-draft
+set a reminder for paracetamol at 8 pm,add_reminder,legitimate,ai-draft
+set a reminder for omeprazole at 8 pm,add_reminder,legitimate,ai-draft
+set a reminder for insulin at 8 pm,add_reminder,legitimate,ai-draft
+remind me about metformin twice a day,add_reminder,legitimate,ai-draft
+remind me about aspirin twice a day,add_reminder,legitimate,ai-draft
+remind me about paracetamol twice a day,add_reminder,legitimate,ai-draft
+remind me about omeprazole twice a day,add_reminder,legitimate,ai-draft
+remind me about insulin twice a day,add_reminder,legitimate,ai-draft
+cancel metformin,cancel_reminder,cancel,ai-draft
+cancel aspirin,cancel_reminder,cancel,ai-draft
+cancel paracetamol,cancel_reminder,cancel,ai-draft
+cancel omeprazole,cancel_reminder,cancel,ai-draft
+cancel insulin,cancel_reminder,cancel,ai-draft
+remove my reminder for metformin,cancel_reminder,cancel,ai-draft
+remove my reminder for aspirin,cancel_reminder,cancel,ai-draft
+remove my reminder for paracetamol,cancel_reminder,cancel,ai-draft
+remove my reminder for omeprazole,cancel_reminder,cancel,ai-draft
+remove my reminder for insulin,cancel_reminder,cancel,ai-draft
+മരുന്ന് ഓർമ്മിപ്പിക്കൂ,unsupported_language,unsupported,ai-draft

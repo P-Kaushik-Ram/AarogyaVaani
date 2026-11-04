@@ -1,0 +1,9 @@
+{
+  "code": "hi",
+  "script": "Devanagari",
+  "speech_locale": "hi-IN",
+  "readiness_ui": false,
+  "readiness_understanding": false,
+  "readiness_voice": false,
+  "review_status": "ai-draft"
+}

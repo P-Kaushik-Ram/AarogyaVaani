@@ -1,0 +1,55 @@
+text,intent,category,review_status
+மெட்ஃபார்மின் எனக்கு பாதுகாப்பானதா?,out_of_scope,medical,ai-draft
+ஆஸ்பிரின் எனக்கு பாதுகாப்பானதா?,out_of_scope,medical,ai-draft
+பாராசிட்டமால் எனக்கு பாதுகாப்பானதா?,out_of_scope,medical,ai-draft
+ஓமிபிரசோல் எனக்கு பாதுகாப்பானதா?,out_of_scope,medical,ai-draft
+இன்சுலின் எனக்கு பாதுகாப்பானதா?,out_of_scope,medical,ai-draft
+மெட்ஃபார்மின் பக்கவிளைவுகள் என்ன?,out_of_scope,medical,ai-draft
+ஆஸ்பிரின் பக்கவிளைவுகள் என்ன?,out_of_scope,medical,ai-draft
+பாராசிட்டமால் பக்கவிளைவுகள் என்ன?,out_of_scope,medical,ai-draft
+ஓமிபிரசோல் பக்கவிளைவுகள் என்ன?,out_of_scope,medical,ai-draft
+இன்சுலின் பக்கவிளைவுகள் என்ன?,out_of_scope,medical,ai-draft
+மெட்ஃபார்மின் எடுப்பதை நிறுத்தலாமா?,out_of_scope,medical,ai-draft
+ஆஸ்பிரின் எடுப்பதை நிறுத்தலாமா?,out_of_scope,medical,ai-draft
+பாராசிட்டமால் எடுப்பதை நிறுத்தலாமா?,out_of_scope,medical,ai-draft
+ஓமிபிரசோல் எடுப்பதை நிறுத்தலாமா?,out_of_scope,medical,ai-draft
+இன்சுலின் எடுப்பதை நிறுத்தலாமா?,out_of_scope,medical,ai-draft
+மெட்ஃபார்மின் அளவை அதிகரிக்கலாமா?,out_of_scope,medical,ai-draft
+ஆஸ்பிரின் அளவை அதிகரிக்கலாமா?,out_of_scope,medical,ai-draft
+பாராசிட்டமால் அளவை அதிகரிக்கலாமா?,out_of_scope,medical,ai-draft
+ஓமிபிரசோல் அளவை அதிகரிக்கலாமா?,out_of_scope,medical,ai-draft
+இன்சுலின் அளவை அதிகரிக்கலாமா?,out_of_scope,medical,ai-draft
+மெட்ஃபார்மின் நினைவூட்டு அது பாதுகாப்பானதா,out_of_scope,medical,ai-draft
+ஆஸ்பிரின் நினைவூட்டு அது பாதுகாப்பானதா,out_of_scope,medical,ai-draft
+பாராசிட்டமால் நினைவூட்டு அது பாதுகாப்பானதா,out_of_scope,medical,ai-draft
+ஓமிபிரசோல் நினைவூட்டு அது பாதுகாப்பானதா,out_of_scope,medical,ai-draft
+இன்சுலின் நினைவூட்டு அது பாதுகாப்பானதா,out_of_scope,medical,ai-draft
+காலை மெட்ஃபார்மின் அளவை நினைவூட்டு,add_reminder,legitimate,ai-draft
+காலை ஆஸ்பிரின் அளவை நினைவூட்டு,add_reminder,legitimate,ai-draft
+காலை பாராசிட்டமால் அளவை நினைவூட்டு,add_reminder,legitimate,ai-draft
+காலை ஓமிபிரசோல் அளவை நினைவூட்டு,add_reminder,legitimate,ai-draft
+காலை இன்சுலின் அளவை நினைவூட்டு,add_reminder,legitimate,ai-draft
+மெட்ஃபார்மின் தினமும் இரு வேளை நினைவூட்டு,add_reminder,legitimate,ai-draft
+ஆஸ்பிரின் தினமும் இரு வேளை நினைவூட்டு,add_reminder,legitimate,ai-draft
+பாராசிட்டமால் தினமும் இரு வேளை நினைவூட்டு,add_reminder,legitimate,ai-draft
+ஓமிபிரசோல் தினமும் இரு வேளை நினைவூட்டு,add_reminder,legitimate,ai-draft
+இன்சுலின் தினமும் இரு வேளை நினைவூட்டு,add_reminder,legitimate,ai-draft
+இரவு 8 மணிக்கு மெட்ஃபார்மின் நினைவூட்டு,add_reminder,legitimate,ai-draft
+இரவு 8 மணிக்கு ஆஸ்பிரின் நினைவூட்டு,add_reminder,legitimate,ai-draft
+இரவு 8 மணிக்கு பாராசிட்டமால் நினைவூட்டு,add_reminder,legitimate,ai-draft
+இரவு 8 மணிக்கு ஓமிபிரசோல் நினைவூட்டு,add_reminder,legitimate,ai-draft
+இரவு 8 மணிக்கு இன்சுலின் நினைவூட்டு,add_reminder,legitimate,ai-draft
+மெட்ஃபார்மின் நினைவூட்டலை நிறுத்து,cancel_reminder,cancel,ai-draft
+ஆஸ்பிரின் நினைவூட்டலை நிறுத்து,cancel_reminder,cancel,ai-draft
+பாராசிட்டமால் நினைவூட்டலை நிறுத்து,cancel_reminder,cancel,ai-draft
+ஓமிபிரசோல் நினைவூட்டலை நிறுத்து,cancel_reminder,cancel,ai-draft
+இன்சுலின் நினைவூட்டலை நிறுத்து,cancel_reminder,cancel,ai-draft
+மெட்ஃபார்மின் நினைவூட்டலை ரத்து செய்,cancel_reminder,cancel,ai-draft
+ஆஸ்பிரின் நினைவூட்டலை ரத்து செய்,cancel_reminder,cancel,ai-draft
+பாராசிட்டமால் நினைவூட்டலை ரத்து செய்,cancel_reminder,cancel,ai-draft
+ஓமிபிரசோல் நினைவூட்டலை ரத்து செய்,cancel_reminder,cancel,ai-draft
+இன்சுலின் நினைவூட்டலை ரத்து செய்,cancel_reminder,cancel,ai-draft
+metformin எனக்கு பாதுகாப்பானதா?,out_of_scope,medical,ai-draft
+காலை metformin அளவை நினைவூட்டு,add_reminder,legitimate,ai-draft
+metformin நினைவூட்டலை நிறுத்து,cancel_reminder,cancel,ai-draft
+മരുന്ന് ഓർമ്മിപ്പിക്കൂ,unsupported_language,unsupported,ai-draft

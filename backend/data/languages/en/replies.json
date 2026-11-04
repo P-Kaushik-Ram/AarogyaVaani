@@ -1,0 +1,20 @@
+{
+  "greeting": "Hello! I can help you set, view or cancel medicine reminders.",
+  "help": "Add a reminder, view reminders or cancel a reminder.\nI only handle medicine reminders. Check the details before saving.\nUse a quoted medicine name, an exact time and daily repetition. Review before saving.\nremind me to take \"My medicine\" at 8 PM daily\nshow my reminders\ncancel \"My medicine\"",
+  "out_of_scope": "I'm only able to help with medicine reminders, not medical advice. Please check with your doctor or pharmacist for that.",
+  "add_reminder_ok": "Saved. I'll remind you for {medicine} ({freq}, {when}).",
+  "add_reminder_missing_medicine": "I couldn't catch which medicine. Could you say the medicine name again?",
+  "no_reminders": "You have no active reminders right now.",
+  "cancelled": "Done, that reminder has been cancelled.",
+  "cancel_not_found": "I couldn't find a matching reminder to cancel.",
+  "draft": "Please confirm the reminder details.",
+  "unsupported": "This language is not supported yet.",
+  "notification": "Reminder: time to take {medicine}.",
+  "missing_time": "Time is missing. Enter an explicit time with AM or PM.",
+  "time_ambiguous": "Choose the intended time, or correct the sentence.",
+  "frequency": "Recurrence is unclear or unsupported. Correct the sentence with daily or named weekdays.",
+  "date": "A specific date cannot be saved by Talk in this version. Enter an explicit daily recurrence only if that is what you intend; no one-off request will be converted automatically.",
+  "dosage": "Dosage instructions need manual review. Use the form and follow your prescription; no dose was inferred.",
+  "view_reminders": "Select a reminder in Medicines to review its full details before deletion.",
+  "cancel_review": "Select a reminder in Medicines to review its full details before deletion."
+}

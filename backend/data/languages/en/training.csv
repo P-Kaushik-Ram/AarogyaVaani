@@ -1,0 +1,56 @@
+text,intent,review_status
+remind me to take metformin every morning at 8,add_reminder,legacy-unreviewed
+I need to take a tablet after lunch daily,add_reminder,legacy-unreviewed
+set a reminder for insulin injection at 9 pm,add_reminder,legacy-unreviewed
+remind me twice a day for paracetamol,add_reminder,legacy-unreviewed
+one tablet before breakfast every day,add_reminder,legacy-unreviewed
+please remind me to take aspirin at night,add_reminder,legacy-unreviewed
+I take amlodipine every morning add a reminder,add_reminder,legacy-unreviewed
+set reminder atorvastatin 10 pm daily,add_reminder,legacy-unreviewed
+add a reminder for my sugar tablet in the morning,add_reminder,legacy-unreviewed
+remind me after dinner to take my tablet,add_reminder,legacy-unreviewed
+add metformin reminder twice daily,add_reminder,legacy-unreviewed
+I have to take insulin before breakfast remind me,add_reminder,legacy-unreviewed
+what is my medicine time,view_reminders,legacy-unreviewed
+what tablets do I take today,view_reminders,legacy-unreviewed
+show my reminders,view_reminders,legacy-unreviewed
+which medicine should I take now,view_reminders,legacy-unreviewed
+list my medicines,view_reminders,legacy-unreviewed
+what do I have to take today,view_reminders,legacy-unreviewed
+tell me my reminders for today,view_reminders,legacy-unreviewed
+show all my reminders,view_reminders,legacy-unreviewed
+can you list my medicine schedule,view_reminders,legacy-unreviewed
+view,view_reminders,legacy-unreviewed
+view reminders,view_reminders,legacy-unreviewed
+show,view_reminders,legacy-unreviewed
+list,view_reminders,legacy-unreviewed
+stop the metformin reminder,cancel_reminder,legacy-unreviewed
+remove this tablet reminder,cancel_reminder,legacy-unreviewed
+I don't need that medicine anymore,cancel_reminder,legacy-unreviewed
+cancel my insulin reminder,cancel_reminder,legacy-unreviewed
+delete the paracetamol reminder,cancel_reminder,legacy-unreviewed
+hello,greeting,legacy-unreviewed
+hi there,greeting,legacy-unreviewed
+how are you,greeting,legacy-unreviewed
+good morning,greeting,legacy-unreviewed
+hi,greeting,legacy-unreviewed
+hey,greeting,legacy-unreviewed
+good evening,greeting,legacy-unreviewed
+good afternoon,greeting,legacy-unreviewed
+I have a headache what should I do,out_of_scope,legacy-unreviewed
+is this medicine right for me,out_of_scope,legacy-unreviewed
+can I change my medicine dosage,out_of_scope,legacy-unreviewed
+what should my sugar level be,out_of_scope,legacy-unreviewed
+should I stop taking this tablet,out_of_scope,legacy-unreviewed
+what medicine should I take for fever,out_of_scope,legacy-unreviewed
+is it safe to take two tablets together,out_of_scope,legacy-unreviewed
+is metformin safe for me,out_of_scope,legacy-unreviewed
+can I stop taking paracetamol,out_of_scope,legacy-unreviewed
+what are the side effects of aspirin,out_of_scope,legacy-unreviewed
+can I change my insulin dosage,out_of_scope,legacy-unreviewed
+is amlodipine safe with other medicines,out_of_scope,legacy-unreviewed
+should I stop metformin if I feel dizzy,out_of_scope,legacy-unreviewed
+can I take more paracetamol if pain continues,out_of_scope,legacy-unreviewed
+is it safe to double my atorvastatin dose,out_of_scope,legacy-unreviewed
+what happens if I miss my insulin dose,out_of_scope,legacy-unreviewed
+can aspirin cause stomach problems,out_of_scope,legacy-unreviewed

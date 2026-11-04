@@ -1,0 +1,14 @@
+{
+  "words": {
+    "காலை": "morning",
+    "மதியம்": "afternoon",
+    "மாலை": "evening",
+    "இரவு": "night"
+  },
+  "defaults": {
+    "morning": "08:00",
+    "afternoon": "13:00",
+    "evening": "18:00",
+    "night": "21:00"
+  }
+}

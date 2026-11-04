@@ -1,0 +1,24 @@
+{
+  "dark": {
+    "bg": "#071A2B", "surface1": "#0C2638", "surface2": "#102D3E",
+    "borderSoft": "#29475A", "borderStrong": "#81A4BA",
+    "textPrimary": "#FFF8EC", "textSecondary": "#CCDCE5", "textMuted": "#B9C9D3",
+    "accent": "#FF9F1C", "onAccent": "#071A2B", "accentPressed": "#F08A12",
+    "success": "#48C78E", "danger": "#FF7777", "care": "#8CDCCB",
+    "scrim": "rgba(2,17,30,0.88)", "disabled": "#819BAA",
+    "glass": "rgba(16,45,62,0.90)", "glassElevated": "rgba(22,56,74,0.96)",
+    "amber": "#FFB347", "ambient": "rgba(72,199,142,0.08)",
+    "sheen": "rgba(255,248,236,0.03)", "transparent": "rgba(255,255,255,0)", "shadow": "#000000"
+  },
+  "hc": {
+    "bg": "#02111E", "surface1": "#061E2E", "surface2": "#0A2738",
+    "borderSoft": "#A8C4D6", "borderStrong": "#D3E6F0",
+    "textPrimary": "#FFFFFF", "textSecondary": "#E1EDF3", "textMuted": "#E1EDF3",
+    "accent": "#FFCF85", "onAccent": "#02111E", "accentPressed": "#FFC16A",
+    "success": "#83E4AE", "danger": "#FFB1AD", "care": "#AFEDE2",
+    "scrim": "rgba(0,0,0,0.92)", "disabled": "#AAB2C0",
+    "glass": "#061E2E", "glassElevated": "#0A2738",
+    "amber": "#FFCF85", "ambient": "#061E2E",
+    "sheen": "#061E2E", "transparent": "rgba(255,255,255,0)", "shadow": "#000000"
+  }
+}

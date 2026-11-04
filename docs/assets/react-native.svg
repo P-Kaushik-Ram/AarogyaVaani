@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="25" viewBox="0 0 108 25" role="img" aria-label="React Native">
+  <rect x=".5" y=".5" width="107" height="24" rx="5" fill="#0B1628" stroke="#2DD4BF"/>
+  <path d="M69 1H103Q107 1 107 5V20Q107 24 103 24H69Z" fill="#2DD4BF"/>
+  <g font-family="Verdana, sans-serif" font-size="10" text-anchor="middle">
+    <text x="34.5" y="16" fill="#F1FBFF">React</text>
+    <text x="88" y="16" fill="#0B1628" font-weight="bold">Native</text>
+  </g>
+</svg>

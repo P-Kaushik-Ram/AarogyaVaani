@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="25" viewBox="0 0 101 25" role="img" aria-label="SQLite Local">
+  <rect x=".5" y=".5" width="100" height="24" rx="5" fill="#0B1628" stroke="#2DD4BF"/>
+  <path d="M62 1H96Q100 1 100 5V20Q100 24 96 24H62Z" fill="#2DD4BF"/>
+  <g font-family="Verdana, sans-serif" font-size="10" text-anchor="middle">
+    <text x="31" y="16" fill="#F1FBFF">SQLite</text>
+    <text x="81" y="16" fill="#0B1628" font-weight="bold">Local</text>
+  </g>
+</svg>

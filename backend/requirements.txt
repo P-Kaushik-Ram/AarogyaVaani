@@ -1,0 +1,7 @@
+-c requirements-lock.txt
+scikit-learn
+fastapi
+uvicorn
+tzdata
+pg8000==1.31.5
+python-dotenv==1.2.2

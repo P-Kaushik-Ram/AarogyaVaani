@@ -1,0 +1,14 @@
+{
+  "TimeDisplay": {"fontSize":26,"lineHeight":36,"fontWeight":"700"},
+  "H1": {"fontSize":24,"lineHeight":34,"fontWeight":"700"},
+  "H2": {"fontSize":18,"lineHeight":28,"fontWeight":"600"},
+  "Title": {"fontSize":16,"lineHeight":26,"fontWeight":"600"},
+  "BodyLarge": {"fontSize":16,"lineHeight":26,"fontWeight":"400"},
+  "Body": {"fontSize":15,"lineHeight":24,"fontWeight":"400"},
+  "Caption": {"fontSize":12,"lineHeight":20,"fontWeight":"400"},
+  "Button": {"fontSize":15,"lineHeight":24,"fontWeight":"600"},
+  "TimelineTime": {"fontSize":22,"lineHeight":32,"fontWeight":"700"},
+  "Nav": {"fontSize":11,"lineHeight":18,"fontWeight":"600"},
+  "SectionLabel": {"fontSize":12,"lineHeight":20,"fontWeight":"600"},
+  "DashboardTitle": {"fontSize":18,"lineHeight":28,"fontWeight":"700"}
+}

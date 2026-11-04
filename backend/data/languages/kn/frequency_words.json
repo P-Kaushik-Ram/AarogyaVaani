@@ -1,0 +1,17 @@
+{
+  "words": {
+    "ಪ್ರತಿದಿನ": "once_daily",
+    "ದಿನವೂ": "once_daily",
+    "pratidina": "once_daily",
+    "ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ": "twice_daily"
+  },
+  "twice_defaults": [
+    "08:00",
+    "21:00"
+  ],
+  "unsupported": [
+    "ದಿನ ಬಿಟ್ಟು",
+    "ನಾಳೆ",
+    "ವಾರಕ್ಕೆ"
+  ]
+}

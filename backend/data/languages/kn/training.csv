@@ -1,0 +1,51 @@
+text,intent,category,review_status
+"ನೆನಪಿಸು ""Training Brand 1"" ರಾತ್ರಿ 1 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 1"" at 1 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 1""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Training Brand 2"" ರಾತ್ರಿ 2 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 2"" at 2 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 2""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Training Brand 3"" ರಾತ್ರಿ 3 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 3"" at 3 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 3""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Training Brand 4"" ರಾತ್ರಿ 4 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 4"" at 4 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 4""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Training Brand 5"" ರಾತ್ರಿ 5 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 5"" at 5 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 5""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Training Brand 6"" ರಾತ್ರಿ 6 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 6"" at 6 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 6""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Training Brand 7"" ರಾತ್ರಿ 7 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 7"" at 7 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 7""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Training Brand 8"" ರಾತ್ರಿ 8 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 8"" at 8 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 8""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Training Brand 9"" ರಾತ್ರಿ 9 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 9"" at 9 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 9""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Training Brand 10"" ರಾತ್ರಿ 10 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 10"" at 10 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 10""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Training Brand 11"" ರಾತ್ರಿ 11 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 11"" at 11 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 11""",cancel_reminder,cancel,ai-draft
+"ನೆನಪಿಸು ""Training Brand 12"" ರಾತ್ರಿ 12 ಗಂಟೆಗೆ ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"nenapisu ""Training Brand 12"" at 12 AM ಪ್ರತಿದಿನ",add_reminder,legitimate,ai-draft
+"ಜ್ಞಾಪನೆ ರದ್ದುಮಾಡು ""Training Brand 12""",cancel_reminder,cancel,ai-draft
+"ಅಡ್ಡಪರಿಣಾಮ ""Training Brand""?",out_of_scope,medical,ai-draft
+"ಅಡ್ಡಪರಿಣಾಮ ""Training Brand"" ನೆನಪಿಸು?",out_of_scope,medical,ai-draft
+"ಸುರಕ್ಷಿತವೇ ""Training Brand""?",out_of_scope,medical,ai-draft
+"ಸುರಕ್ಷಿತವೇ ""Training Brand"" ನೆನಪಿಸು?",out_of_scope,medical,ai-draft
+"ತೆಗೆದುಕೊಳ್ಳಬಹುದೇ ""Training Brand""?",out_of_scope,medical,ai-draft
+"ತೆಗೆದುಕೊಳ್ಳಬಹುದೇ ""Training Brand"" ನೆನಪಿಸು?",out_of_scope,medical,ai-draft
+"ಡೋಸ್ ಹೆಚ್ಚ ""Training Brand""?",out_of_scope,medical,ai-draft
+"ಡೋಸ್ ಹೆಚ್ಚ ""Training Brand"" ನೆನಪಿಸು?",out_of_scope,medical,ai-draft
+"ಡೋಸ್ ಕಡಿಮೆ ""Training Brand""?",out_of_scope,medical,ai-draft
+"ಡೋಸ್ ಕಡಿಮೆ ""Training Brand"" ನೆನಪಿಸು?",out_of_scope,medical,ai-draft
+ಜ್ಞಾಪನೆಗಳನ್ನು ತೋರಿಸು!,view_reminders,legitimate,ai-draft
+jnapanegalannu torisu!,view_reminders,legitimate,ai-draft
+ಸಹಾಯ!,help,legitimate,ai-draft
+ನಮಸ್ಕಾರ!,greeting,legitimate,ai-draft

@@ -1,0 +1,9 @@
+{
+  "code": "te",
+  "script": "Telugu",
+  "speech_locale": "te-IN",
+  "readiness_ui": false,
+  "readiness_understanding": false,
+  "readiness_voice": false,
+  "review_status": "ai-draft"
+}

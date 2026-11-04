@@ -1,0 +1,13 @@
+{
+  "patterns": [
+    "\\b(?:is|are)\\b.{0,100}\\b(?:safe|harmful|dangerous)\\b",
+    "\\bside[ -]?effects?\\b",
+    "\\b(?:change|increase|decrease|double|reduce)\\b.{0,35}\\b(?:dose|dosage|medicine|medication)\\b",
+    "\\bstop taking\\b",
+    "\\b(?:can|should|may) i\\b",
+    "\\b(?:what|which|how much|how many)\\b.{0,50}\\b(?:dose|dosage|take|medicine|medication|tablets?)\\b",
+    "\\b(?:i|we|he|she|they) (?:should|can|may|must|could)\\b.{0,50}\\b(?:take|stop|dose|dosage|medicine|medication|tablets?)\\b",
+    "\\b(?:interaction|interact|diagnos\\w*|symptom\\w*)\\b",
+    "\\b(?:i have|i feel|my symptoms)\\b"
+  ]
+}

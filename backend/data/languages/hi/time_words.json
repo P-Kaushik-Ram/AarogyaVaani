@@ -1,0 +1,15 @@
+{
+  "words": {
+    "सुबह": "morning",
+    "नाश्ते": "morning",
+    "दोपहर": "afternoon",
+    "शाम": "evening",
+    "रात": "night"
+  },
+  "defaults": {
+    "morning": "08:00",
+    "afternoon": "13:00",
+    "evening": "18:00",
+    "night": "21:00"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "words": {
+    "twice a day": "twice_daily",
+    "two times": "twice_daily",
+    "daily": "once_daily",
+    "every day": "once_daily",
+    "once a day": "once_daily"
+  },
+  "twice_defaults": [
+    "08:00",
+    "21:00"
+  ],
+  "clarifications": {
+    "frequency": "How often should this reminder repeat? Please specify daily or every day, then review the details before saving.",
+    "date": "A reminder for a specific date such as tomorrow cannot be saved in this version. If you want a repeating reminder, enter its recurrence explicitly; I will not turn a one-off request into a daily reminder."
+  },
+  "unsupported": [
+    "every other day",
+    "alternate days"
+  ]
+}
